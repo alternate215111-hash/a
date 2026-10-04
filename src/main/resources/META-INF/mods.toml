@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="itemsway"
+version="1.0.0"
+displayName="Item Sway"
+description='''
+Makes held items sway and wobble as you turn the camera, GoldenEye / Perfect Dark style.
+Client-side only; works on any server.
+'''
+displayTest="IGNORE_SERVER_VERSION"
+
+[[dependencies.itemsway]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.itemsway]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="CLIENT"
